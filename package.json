@@ -1,0 +1,38 @@
+{
+  "name": "rawen-toolbelt",
+  "version": "1.0.0",
+  "scripts": {
+    "speech2txt:x-whisper": "nodemon speech-to-text/py/test/x-whisper.ts",
+    "speech2txt:openai-whisper": "nodemon speech-to-text/py/test/openai-whisper.ts",
+    "sppech2txt:langchain-speech2docs": "nodemon speech-to-text/ts/test/langchain_speech-to-docs.test.ts",
+    "sppech2txt:openai-speech2txt": "nodemon speech-to-text/ts/test/openai_speech-to-txt.test.ts",
+    "summarize:haystack_summarize-search": "nodemon summarize/py/test/haystack_summarize-search.ts",
+    "summarize:haystack_summarize": "nodemon summarize/py/test/haystack_summarize.ts",
+    "txt2speech:coqui-speech2txt": "nodemon text-to-speech/ts/test/coqui_speech-to-txt.test.ts",
+    "txt2speech:bark-speech2txt": "nodemon text-to-speech/py/test/bark-text-to-speech.test.ts",
+    "retrivers:lancedb": "nodemon retrivers/ts/test/self-hosted_lanceDb.test.ts"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.152",
+    "replicate": "^0.18.0",
+    "vectordb": "^0.1.19",
+    "@xenova/transformers": "^2.6.1",
+    "openai": "^3.2.1",
+    "typeorm": "^0.3.17",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "html-to-md": "^0.8.3",
+    "read-excel-file": "^5.7.1",
+    "tesseract.js": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.2.2"
+  },
+  "author": "NexTechFusion",
+  "license": "MIT"
+}

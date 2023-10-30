@@ -1,0 +1,13 @@
+{
+  "name": "qa-documents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "qa-agent": "node test/qa-agent.js",
+    "qa": "node test/qa.js",
+    "summarize": "node test/summarize.js",
+    "summarize-search": "node test/summarize-search.js"
+  },
+  "author": "NexTechFusion",
+  "license": "MIT"
+}
